@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HTML Assignment</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />		
+	</head>
+	<body class="page__container loading">
+		<main>
+			<div style="display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;">
+				<div class="content content--alternate content--padded" style="margin: 0;">
+					<div class="content__item content__item--expand" style="margin: 0;">
+						<h2 class="content__item-title" style="grid-area: 1 / 1 / 4 / 2; margin: 0;">
+							Difference between a static and dynamic web page.
+							<span style="margin-top: 60px; display: block; font-size: 14px; color: #DDDDDD; font-weight: 500;">by Minho Kang</span>
+						</h2>
+
+						<div class="content__item-description" style="font-size: 18px; font-family: roboto; color: #DDDDDD; width: 50vw;">
+							<p>
+								In static pages are prebuilt files loaded and doesn't change after loading. Whereas dynamic pages are live, which means they communicate with server (back-end) or other micro services, to fetch certain data and update the page.
+							</p>
+
+							<p>
+								The <a href="invitation.html">HTML assignment</a> we just did is good example of static page. These static pages may include stylesheets and javascript files. Even if there are event bindings and css animations that may create user interaction. Generally when there are no communication with server or micro services, these pages are considered static. Also contents you view when you open an email is an example of static HTML.
+							</p>
+
+							<p>
+								Applications we often use communicates to server to load and send data. These dynamic pages have two distinguishable ways to update loaded pages. There are server-side rendered dynamic pages where server side language such as PHP, C#, Java, Python, Javascript (NodeJS) renders pages. Also there are client-side dynamic pages built with modern javascript frameworks such as Angular, React, Vue and Ember manipulates DOM element with data fetched from APIs, which can be sometimes called as static, because it can be hosted by static hosting services like AWS S3 Bucket.
+							</p>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</main>
+	</body>
+</html>
